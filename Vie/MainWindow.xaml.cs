@@ -21,5 +21,10 @@ namespace Vie
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            MainImg.Source = new BitmapImage(new Uri(@"C:\Users\yasky\Pictures\1.jpg"));
+        }
     }
 }
