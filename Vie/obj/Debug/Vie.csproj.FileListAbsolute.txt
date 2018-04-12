@@ -1,0 +1,15 @@
+C:\Users\yasky\source\repos\Vie\Vie\bin\Debug\Vie.exe.config
+C:\Users\yasky\source\repos\Vie\Vie\bin\Debug\Vie.exe
+C:\Users\yasky\source\repos\Vie\Vie\bin\Debug\Vie.pdb
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie.csprojResolveAssemblyReference.cache
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\MainWindow.g.cs
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\App.g.cs
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie_MarkupCompile.cache
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie_MarkupCompile.lref
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\MainWindow.baml
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie.g.resources
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie.Properties.Resources.resources
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie.csproj.GenerateResource.Cache
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie.csproj.CoreCompileInputs.cache
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie.exe
+C:\Users\yasky\source\repos\Vie\Vie\obj\Debug\Vie.pdb
