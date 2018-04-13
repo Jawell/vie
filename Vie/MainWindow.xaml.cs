@@ -15,8 +15,15 @@ using System.Windows.Shapes;
 
 namespace Vie
 {
+    static class Data
+    {
+        public static string Path { get; set; }
+    }
+
     public partial class MainWindow : Window
     {
+        public string Path;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -24,7 +31,12 @@ namespace Vie
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            MainImg.Source = new BitmapImage(new Uri(@"C:\Users\yasky\Pictures\1.jpg"));
+            MainImg.Source = new BitmapImage(new Uri(@Data.Path));
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

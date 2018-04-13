@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vie"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+        Title="Vie" Height="350" Width="525" Loaded="Window_Loaded" Closing="Window_Closing">
     <Grid>
-        <Image Name="MainImg" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="497"/>
+        <Image Name="MainImg" Margin="0,0,10,10" VerticalAlignment="Center" HorizontalAlignment="Center" Width="600"/>
     </Grid>
 </Window>

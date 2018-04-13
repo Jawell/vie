@@ -8,10 +8,11 @@ using System.Windows;
 
 namespace Vie
 {
-    /// <summary>
-    /// Логика взаимодействия для App.xaml
-    /// </summary>
     public partial class App : Application
     {
+        private void App_Startup(object sender, StartupEventArgs e)
+        {
+            Data.Path = e.Args[0].ToString();
+        }
     }
 }
