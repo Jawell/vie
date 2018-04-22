@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -22,8 +23,6 @@ namespace Vie
 
     public partial class MainWindow : Window
     {
-        public string Path;
-
         public MainWindow()
         {
             InitializeComponent();
@@ -31,7 +30,18 @@ namespace Vie
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            MainImg.Source = new BitmapImage(new Uri(@Data.Path));
+            //MessageBox.Show(Application.ResourceAssembly.GetName().Name.ToString());
+            Uri url = new Uri(@Data.Path);
+            BitmapImage img = new BitmapImage(url);
+            //get img resolution
+            short imgH, imgW, screenH, screenW;
+            imgH = (short)img.PixelHeight;
+            imgW = (short)img.PixelWidth;
+            //get screen resolution
+            screenH = (short)System.Windows.SystemParameters.PrimaryScreenHeight;
+            screenW = (short)System.Windows.SystemParameters.PrimaryScreenWidth;
+            //display img in window
+            MainImg.Source = img;
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
