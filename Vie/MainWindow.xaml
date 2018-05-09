@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:Vie"
         mc:Ignorable="d"
         Title="Vie" Height="610" Width="810" Loaded="Window_Loaded" Closing="Window_Closing"
-        Name="window">
-    <Image Name="MainImg" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" StretchDirection="DownOnly"/>
+        Name="window" KeyUp="window_KeyUp">
+    <Grid Name="MainGrid" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" RenderTransformOrigin="0.5,0.5" Background="Black">
+        <Image Name="MainImg" StretchDirection="DownOnly" MouseWheel="MainImg_MouseWheel"/>
+    </Grid>
 </Window>
